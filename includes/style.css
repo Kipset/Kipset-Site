@@ -132,20 +132,17 @@ main .landing .landing-text {
 main .games {
     margin-top: 2rem;
     background-color: #fafafa;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 main .about {
     margin-top: 2rem;
     background-color: #fafafa;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 main .contact {
     margin-top: 2rem;
     margin-bottom: 2rem;
     background-color: #fafafa;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 main .intro {
@@ -153,7 +150,6 @@ main .intro {
     padding-top: 10rem;
     margin-bottom: 2rem;
     background-color: black;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 main .intro .lead {
@@ -163,6 +159,43 @@ main .intro .lead {
 main .portfolio {
     min-height: 100vh;
     margin-bottom: 2rem;
+}
+
+main .portfolio .card {
+    background-color: #fafafa;
+}
+
+main .mission {
+    margin-bottom: 2rem;
+}
+
+main .mission .mission-item {
+    background-color: #fafafa;
+}
+
+main .values {
+    margin-bottom: 2rem;
+}
+
+main .values .values-image {
+    margin: 1rem;
+}
+
+main .team {
+    margin-bottom: 2rem;
+    background-color: #fafafa;
+}
+
+main .team .team-item {
+    width: 20%;
+    height: 20%;
+    margin: 1rem;
+}
+
+main .team .card {
+    background-color: #fafafa;
+    padding: 1rem;
+    border: none;
 }
 
 .footer {
