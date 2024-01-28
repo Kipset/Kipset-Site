@@ -1,0 +1,135 @@
+.primary-background {
+    background-color: black;
+}
+
+html {
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #fafafa;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Montserrat-Alt1", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #444;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+header {
+    position: relative;
+    display: block;
+    z-index: 11;
+    top: 0;
+    color: #fafafa;
+    box-shadow: 0 1px 6px -1px rgba(0,0,0,.1);
+}
+
+footer {
+    box-shadow: 0 50vh 0 50vh black;
+}
+
+.navbar {
+    padding: 10rem;
+}
+
+header .logo {
+    display: inline-flex;
+    padding: 6px 12px;
+    margin: 6px -12px;
+    gap: 12px;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+header .logo:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(255,255,255,.15);
+}
+
+header .logo-text {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1;
+}
+
+header .logo-image {
+    height: 50px;
+}
+
+header a {
+    font-size: large;
+}
+
+header .nav a {
+    display: inline-block;
+    padding: 10px 16px;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+header .nav a:hover {
+    text-decoration: none;
+    background-color: rgba(255,255,255,.15);
+}
+
+header .links a {
+    display: inline-block;
+    padding: 10px 16px;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+header .links a:hover {
+    text-decoration: none;
+    background-color: rgba(255,255,255,.15);
+}
+
+.footer {
+    min-height: 5%;
+    padding: 10rem;
+}
+
+footer .logo-image {
+    height: 40px;
+    filter: opacity(75%);
+}
+
+footer .logo-text {
+    color: #666666;
+    font-weight: 400;
+    line-height: 1;
+}
+
+footer .footer-icon {
+    margin: 0.3rem;
+    font-size: 1.3rem;
+    color: #666666;
+}
+
+footer .footer-icon:hover {
+    color: #cacaca;
+}
