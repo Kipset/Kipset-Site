@@ -11,20 +11,25 @@
     <link rel="stylesheet" href="includes/style.css">
 </head>
 <body>
-    <header class="navbar primary-background fixed-top d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-0">
+    <header class="navbar navbar-expand-xl navbar-dark fixed-top">
         <div class="brand col-md-3 mb-2 mb-md-0">
             <a href="https://kipset.com" class="logo d-inline-flex link-body-emphasis text-decoration-none">
                 <img class="logo-image" src="images/KipsetIcon.png" alt="Logo">
                 <span class="logo-text">KIPSET</span>
             </a>
         </div>
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="highlight nav-link-primary px-2">HOME</a></li>
-            <li><a href="#" class="highlight nav-link-primary px-2">GAMES</a></li>
-            <li><a href="#" class="highlight nav-link-primary px-2">ABOUT</a></li>
-            <li><a href="#" class="highlight nav-link-primary px-2">CONTACT</a></li>
-        </ul>
-        <div class="links col-md-3 text-end"></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li class="nav-item"><a href="index.html" class="nav-link highlight highlight-selected px-2">HOME</a></li>
+                <li class="nav-item"><a href="games.html" class="nav-link highlight px-2">GAMES</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link highlight px-2">ABOUT</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link highlight px-2">CONTACT</a></li>
+            </ul>
+            <div class="links col-md-3 text-end"></div>
+        </div>
     </header>
     <main>
         <div class="landing shadow">
@@ -79,7 +84,9 @@
                     <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">OUR GAMES</h1>
                     <p class="lead">Curabitur sapien sapien, posuere eget varius ut, convallis a est. Donec vehicula non magna nec varius.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-lg px-4 me-md-2 shadow-sm">Learn More</button>
+                        <a href="games.html">                        
+                            <button type="button" class="btn btn-lg px-4 me-md-2 shadow-sm">Learn More</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -93,7 +100,9 @@
                     <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">ABOUT US</h1>
                     <p class="lead">Curabitur sapien sapien, posuere eget varius ut, convallis a est. Donec vehicula non magna nec varius.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-lg px-4 me-md-2 shadow-sm">Learn More</button>
+                        <a href="about.html">
+                            <button type="button" class="btn btn-lg px-4 me-md-2 shadow-sm">Learn More</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -103,11 +112,13 @@
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">CONTACT US</h1>
             <div class="col-lg-6 mx-auto">
                 <p class="lead">Curabitur sapien sapien, posuere eget varius ut, convallis a est. Donec vehicula non magna nec varius.</p>
-                <button type="button" class="btn btn-lg px-4 gap-3 shadow-sm">Contacts</button>
+                <a href="contact.html">
+                    <button type="button" class="btn btn-lg px-4 gap-3 shadow-sm">Contacts</button>
+                </a>
             </div>
         </div>
     </main>
-    <footer class="footer primary-background d-flex flex-wrap align-items-center justify-content-between py-0">
+    <footer class="footer d-flex flex-wrap align-items-center justify-content-between py-0">
         <div class="col-md-4 d-flex align-items-center">
             <div class="mb-3 me-2 mb-md-0">
                 <img class="logo-image" src="images/KipsetIcon.png" alt="Logo">
@@ -116,10 +127,9 @@
         </div>
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li class="nav-item ms-3"><a href=""><i class="footer-icon bi bi-facebook"></i></a></li>
-            <li class="nav-item ms-3"><a href=""><i class="footer-icon bi bi-instagram"></i></a></li>
+            <li class="nav-item ms-3"><a href="https://www.instagram.com/kipset.projects/"><i class="footer-icon bi bi-instagram"></i></a></li>
             <li class="nav-item ms-3"><a href=""><i class="footer-icon bi bi-twitch"></i></a></li>
-            <li class="nav-item ms-3"><a href=""><i class="footer-icon bi bi-discord"></i></a></li>
-            <li class="nav-item ms-3"><a href=""><i class="footer-icon bi bi-twitter-x"></i></a></li>
+            <li class="nav-item ms-3"><a href="https://twitter.com/KipsetProjects"><i class="footer-icon bi bi-twitter-x"></i></a></li>
             <li class="nav-item ms-3"><a href=""><i class="footer-icon bi bi-youtube"></i></a></li>
             <li class="nav-item ms-3"><a href=""><i class="footer-icon bi bi-steam"></i></a></li>
         </ul>
