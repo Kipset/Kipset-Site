@@ -79,21 +79,32 @@ footer {
 }
 
 .navbar {
-    padding: 10rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     justify-content: space-between;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 10rem;
     background-color: black;
 }
 
-.navbar-toggler {
+header .brand {
+    display: flex;
+    align-items: center;
+}
+
+header .navbar-toggler {
     margin-left: auto;
     border: none;
     padding: 0.375rem 0.75rem;
+    border-color: #c09951;
+}
+
+header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23c09951' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+header .navbar-collapse {
+    justify-content: flex-end;
 }
 
 header .logo {
@@ -254,26 +265,27 @@ footer .logo-text {
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+    }
+    
+    header .navbar-nav {
+        flex-direction: column;
+    }
+    
+    header .navbar-nav .nav-item {
+        margin-bottom: 0.5rem;
+    }
+    
     main .intro {
         padding: 2rem 1rem;
         margin-top: 6rem;
     }
     
-    .navbar {
-        padding: 1rem;
-    }
-    
-    .navbar-nav {
-        flex-direction: column;
-    }
-    
-    .navbar-nav .nav-item {
-        margin-bottom: 0.5rem;
-    }
-    
-    .navbar-toggler {
+    header .navbar-toggler {
+        margin-left: 0;
         margin-right: 1rem;
-        margin-bottom: 1rem;
+        align-self: center;
     }
     
     .footer {
@@ -286,7 +298,7 @@ footer .logo-text {
         align-items: left;
     }
     
-    .footer .logo-text {
+    footer .logo-text {
         margin-top: 1rem;
     }
 }
