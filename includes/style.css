@@ -30,7 +30,7 @@ p {
     line-height: 1.5;
     color: #666;
     margin-bottom: 1.5rem;
-    text-align: justify;
+    text-align: left;
 }
 
 .highlight {
@@ -265,7 +265,6 @@ footer .logo-text {
     
     .navbar-nav {
         flex-direction: column;
-        align-items: center;
     }
     
     .navbar-nav .nav-item {
