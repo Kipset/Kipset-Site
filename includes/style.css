@@ -33,6 +33,10 @@ p {
     text-align: left;
 }
 
+.lead {
+    color: #b0b0b0;
+}
+
 .highlight {
     font-size: large;
     display: inline-block;
@@ -60,6 +64,11 @@ p {
 }
 
 .btn:hover {
+    background-color: #c09951;
+    color: #fff;
+}
+
+.btn:focus, .btn:focus-visible {
     background-color: #c09951;
     color: #fff;
 }
@@ -105,6 +114,16 @@ header .navbar-toggler-icon {
 
 header .navbar-collapse {
     justify-content: flex-end;
+}
+
+header .nav-link {
+    width: 7rem;
+    text-align: center;
+}
+
+header .nav-link:focus, header .nav-link:focus-visible {
+    text-decoration: none;
+    background-color: #c09951;
 }
 
 header .logo {
@@ -240,8 +259,12 @@ main .email {
     margin-bottom: 2rem;
 }
 
+main .email .lead {
+    color: #666;
+}
+
 main .email .email-item .email-text {
-    color: #c09951;
+    color: #8c6d33;
 }
 
 main .email .email-item {
@@ -259,7 +282,7 @@ footer .logo-image {
 }
 
 footer .logo-text {
-    color: #666666;
+    color: #b0b0b0;
     font-weight: 400;
     line-height: 1;
 }
